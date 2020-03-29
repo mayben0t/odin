@@ -3,6 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Hela(api)" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Loki(webapp)" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Loki(webapp)/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Loki(webapp)/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Thor(service)" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Thor(service)/src/main/java" charset="UTF-8" />
   </component>
 </project>

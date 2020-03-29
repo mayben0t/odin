@@ -6,9 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Loki(webapp)" />
         <module name="Hela(api)" />
+        <module name="api" />
+        <module name="Loki" />
         <module name="Thor(service)" />
+        <module name="service" />
+        <module name="Loki(webapp)" />
       </profile>
     </annotationProcessing>
   </component>

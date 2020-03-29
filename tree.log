@@ -1,0 +1,162 @@
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective settings
+[WARNING] Unrecognised tag: 'activByDefault' (position: START_TAG seen ...<activation>\n\t\t\t<activByDefault>... @190:20)  @ C:\Users\wangxiao\.m2\settings.xml, line 190, column 20
+[WARNING] 
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Odin                                                               [pom]
+[INFO] api                                                                [jar]
+[INFO] service                                                            [jar]
+[INFO] Loki Maven Webapp                                                  [war]
+[INFO] 
+[INFO] --------------------------< org.asgard:Odin >---------------------------
+[INFO] Building Odin 1.0-SNAPSHOT                                         [1/4]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ Odin ---
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-10/doxia-sink-api-1.0-alpha-10.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-10/doxia-sink-api-1.0-alpha-10.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia/1.0-alpha-10/doxia-1.0-alpha-10.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia/1.0-alpha-10/doxia-1.0-alpha-10.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/1.5.7/plexus-utils-1.5.7.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/1.5.7/plexus-utils-1.5.7.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-site-renderer/1.0/doxia-site-renderer-1.0.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-site-renderer/1.0/doxia-site-renderer-1.0.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-sitetools/1.0/doxia-sitetools-1.0.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-sitetools/1.0/doxia-sitetools-1.0.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-decoration-model/1.0/doxia-decoration-model-1.0.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-decoration-model/1.0/doxia-decoration-model-1.0.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-apt/1.0/doxia-module-apt-1.0.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-apt/1.0/doxia-module-apt-1.0.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-modules/1.0/doxia-modules-1.0.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-modules/1.0/doxia-modules-1.0.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-fml/1.0/doxia-module-fml-1.0.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-fml/1.0/doxia-module-fml-1.0.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-xdoc/1.0/doxia-module-xdoc-1.0.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-xdoc/1.0/doxia-module-xdoc-1.0.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-xhtml/1.0/doxia-module-xhtml-1.0.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-xhtml/1.0/doxia-module-xhtml-1.0.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-shared-components/11/maven-shared-components-11.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-shared-components/11/maven-shared-components-11.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-archiver/2.3/plexus-archiver-2.3.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-archiver/2.3/plexus-archiver-2.3.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-io/2.0.6/plexus-io-2.0.6.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-io/2.0.6/plexus-io-2.0.6.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/3.0.9/plexus-utils-3.0.9.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/3.0.9/plexus-utils-3.0.9.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-project/2.0.5/maven-project-2.0.5.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-project/2.0.5/maven-project-2.0.5.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-settings/2.0.5/maven-settings-2.0.5.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-settings/2.0.5/maven-settings-2.0.5.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-profile/2.0.5/maven-profile-2.0.5.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-profile/2.0.5/maven-profile-2.0.5.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-artifact-manager/2.0.5/maven-artifact-manager-2.0.5.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-artifact-manager/2.0.5/maven-artifact-manager-2.0.5.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-repository-metadata/2.0.5/maven-repository-metadata-2.0.5.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-repository-metadata/2.0.5/maven-repository-metadata-2.0.5.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-invoker/2.0.11/maven-invoker-2.0.11.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-invoker/2.0.11/maven-invoker-2.0.11.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.jar
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-decoration-model/1.0/doxia-decoration-model-1.0.jar
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0.jar
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-site-renderer/1.0/doxia-site-renderer-1.0.jar
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.jar
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.jar (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-apt/1.0/doxia-module-apt-1.0.jar
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0.jar (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-fml/1.0/doxia-module-fml-1.0.jar
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.jar (0 B at 0 B/s)
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-decoration-model/1.0/doxia-decoration-model-1.0.jar (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-xhtml/1.0/doxia-module-xhtml-1.0.jar
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-xdoc/1.0/doxia-module-xdoc-1.0.jar
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-site-renderer/1.0/doxia-site-renderer-1.0.jar (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-archiver/2.3/plexus-archiver-2.3.jar
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-apt/1.0/doxia-module-apt-1.0.jar (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/3.0.9/plexus-utils-3.0.9.jar
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-xdoc/1.0/doxia-module-xdoc-1.0.jar (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-io/2.0.6/plexus-io-2.0.6.jar
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-archiver/2.3/plexus-archiver-2.3.jar (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.jar
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-fml/1.0/doxia-module-fml-1.0.jar (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-invoker/2.0.11/maven-invoker-2.0.11.jar
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/3.0.9/plexus-utils-3.0.9.jar (0 B at 0 B/s)
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.jar (0 B at 0 B/s)
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-io/2.0.6/plexus-io-2.0.6.jar (0 B at 0 B/s)
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-invoker/2.0.11/maven-invoker-2.0.11.jar (0 B at 0 B/s)
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-xhtml/1.0/doxia-module-xhtml-1.0.jar (0 B at 0 B/s)
+[INFO] org.asgard:Odin:pom:1.0-SNAPSHOT
+[INFO] 
+[INFO] ---------------------------< org.asgard:api >---------------------------
+[INFO] Building api 0.0.1-SNAPSHOT                                        [2/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ api ---
+[INFO] org.asgard:api:jar:0.0.1-SNAPSHOT
+[INFO] +- junit:junit:jar:4.11:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] +- org.springframework:spring-aop:jar:5.1.7.RELEASE:compile
+[INFO] +- org.springframework:spring-core:jar:5.1.7.RELEASE:compile
+[INFO] |  \- org.springframework:spring-jcl:jar:5.1.7.RELEASE:compile
+[INFO] +- org.springframework:spring-beans:jar:5.1.7.RELEASE:compile
+[INFO] +- org.springframework:spring-context:jar:5.1.7.RELEASE:compile
+[INFO] \- org.springframework:spring-expression:jar:5.1.7.RELEASE:compile
+[INFO] 
+[INFO] -------------------------< org.asgard:service >-------------------------
+[INFO] Building service 0.0.1-SNAPSHOT                                    [3/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ service ---
+[INFO] org.asgard:service:jar:0.0.1-SNAPSHOT
+[INFO] +- junit:junit:jar:4.11:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] +- org.asgard:api:jar:0.0.1-SNAPSHOT:compile
+[INFO] +- org.springframework:spring-aop:jar:5.1.7.RELEASE:compile
+[INFO] +- org.springframework:spring-core:jar:5.1.7.RELEASE:compile
+[INFO] |  \- org.springframework:spring-jcl:jar:5.1.7.RELEASE:compile
+[INFO] +- org.springframework:spring-beans:jar:5.1.7.RELEASE:compile
+[INFO] +- org.springframework:spring-context:jar:5.1.7.RELEASE:compile
+[INFO] +- org.springframework:spring-expression:jar:5.1.7.RELEASE:compile
+[INFO] +- org.springframework:spring-web:jar:5.1.7.RELEASE:compile
+[INFO] \- org.springframework:spring-webmvc:jar:5.1.7.RELEASE:compile
+[INFO] 
+[INFO] --------------------------< org.asgard:Loki >---------------------------
+[INFO] Building Loki Maven Webapp 0.0.1-SNAPSHOT                          [4/4]
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ Loki ---
+[INFO] org.asgard:Loki:war:0.0.1-SNAPSHOT
+[INFO] +- junit:junit:jar:4.11:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] +- org.asgard:api:jar:0.0.1-SNAPSHOT:compile
+[INFO] +- org.asgard:service:jar:0.0.1-SNAPSHOT:compile
+[INFO] +- org.springframework:spring-aop:jar:5.1.7.RELEASE:compile
+[INFO] +- org.springframework:spring-core:jar:5.1.7.RELEASE:compile
+[INFO] |  \- org.springframework:spring-jcl:jar:5.1.7.RELEASE:compile
+[INFO] +- org.springframework:spring-beans:jar:5.1.7.RELEASE:compile
+[INFO] +- org.springframework:spring-context:jar:5.1.7.RELEASE:compile
+[INFO] +- org.springframework:spring-expression:jar:5.1.7.RELEASE:compile
+[INFO] +- org.springframework:spring-web:jar:5.1.7.RELEASE:compile
+[INFO] \- org.springframework:spring-webmvc:jar:5.1.7.RELEASE:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Odin 1.0-SNAPSHOT .................................. SUCCESS [  4.650 s]
+[INFO] api 0.0.1-SNAPSHOT ................................. SUCCESS [  0.096 s]
+[INFO] service 0.0.1-SNAPSHOT ............................. SUCCESS [  0.038 s]
+[INFO] Loki Maven Webapp 0.0.1-SNAPSHOT ................... SUCCESS [  0.039 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.031 s
+[INFO] Finished at: 2020-03-29T21:26:29+08:00
+[INFO] ------------------------------------------------------------------------

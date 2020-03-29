@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/test")
 public class TestController {
 
-    @GetMapping("/hi")
+    @GetMapping(value = "/hi")
     @ResponseBody
     public String test(){
         return "可能我也会想呢";
